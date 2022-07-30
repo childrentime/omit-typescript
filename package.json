@@ -1,6 +1,6 @@
 {
   "name": "omit-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "shallow copy object and remove property from object",
   "main": "index.js",
   "types": "index.ts",
