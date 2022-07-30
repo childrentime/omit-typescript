@@ -1,0 +1,39 @@
+{
+  "name": "omit-typescript",
+  "version": "1.0.1",
+  "description": "shallow copy object and remove property from object",
+  "main": "index.js",
+  "types": "index.ts",
+  "repository": "https://github.com/childrentime/omit-typescript.git",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.4",
+    "jest": "^27.4.4"
+  },
+  "dependencies": {
+    "spec.ts": "^1.1.3",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "omit",
+    "filter",
+    "typescript",
+    "ts",
+    "delete",
+    "remove",
+    "object",
+    "unset",
+    "prop",
+    "property"
+  ]
+}
